@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
 
   env: {
     HOSTNAME: 'localhost',
-    APIBASEURL: 'http://localhost:5000',
+    APIBASEURL: 'https://house-of-edtech.onrender.com',
   }
   /* config options here */
 };

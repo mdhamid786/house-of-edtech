@@ -53,7 +53,6 @@ export async function getApiData(url) {
 
       return data;
     } else {
-      const errorData = await result.json();
     }
   } catch (error) {
     console.error("Error:", error.message);
