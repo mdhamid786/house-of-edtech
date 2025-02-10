@@ -49,6 +49,9 @@ export default function EditUser({ userList }: AddUserProps) {
         });
         userList(); // Refresh the user list
         onClose(); // Close the modal correctly
+        setName("")
+        setEmail("")
+        setName("")
       } else {
         toast.error(data.message, {
           position: "bottom-center",
@@ -112,6 +115,8 @@ export default function EditUser({ userList }: AddUserProps) {
               label="Mobile No"
               placeholder="Enter Mobile No"
               type="number"
+              maxLength={10}
+              minLength={10}
               variant="bordered"
               value={mobile}
               onChange={(e) => setMobile(e.target.value)}

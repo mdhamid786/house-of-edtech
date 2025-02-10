@@ -6,7 +6,7 @@ const Footer = () => {
         <p className="text-sm">Developed by <span className="font-semibold">Hamid Ali</span></p>
         <div className="flex justify-center space-x-4 mt-2">
           <Link
-            href="https://github.com/hamidali"
+            href="https://github.com/mdhamid786"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-400 hover:underline"

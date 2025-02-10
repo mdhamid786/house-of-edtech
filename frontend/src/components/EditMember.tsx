@@ -122,6 +122,8 @@ export default function EditMember({ userList, user_id }: EditMemberProps) {
               label="Mobile No"
               placeholder="Enter Mobile No"
               type="number"
+              maxLength={10}
+              minLength={10}
               variant="bordered"
               value={mobile}
               onChange={(e) => setMobile(e.target.value)}
